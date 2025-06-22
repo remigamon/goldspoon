@@ -223,6 +223,10 @@ footer {
 }
 /* Adjust for screens up to 768px */
 @media (max-width: 768px) {
+        .hero {
+    height: auto;
+    padding: 60px 20px;
+  }
   .parallax{
       background-attachment: fixed;
   background-repeat: no-repeat;
@@ -256,6 +260,10 @@ footer {
 
 /* Adjust for screens up to 480px */
 @media (max-width: 480px) {
+        .hero {
+    height: auto;
+    padding: 40px 15px;
+  }
     .parallax{
       background-attachment: fixed;
   background-repeat: no-repeat;
