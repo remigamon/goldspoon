@@ -1,0 +1,186 @@
+/* Navigation Bar */
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 15px;
+  border-bottom: 1px solid #ffd700;
+  z-index: 1000;
+}
+
+nav h1{
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: color 0.15s;
+  font-size: 1.5rem; /* Added responsive font size */
+}
+
+nav h1:hover{
+  color: #ffd700;
+}
+
+nav ul {
+  background-color: black;
+  list-style: none;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin-right: 3rem;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  transition: color 0.13s;
+}
+
+nav ul li a:hover{
+  color:#ffd700;
+}
+
+/* reservation button */ 
+.reservation-btn {
+  background-color: #B71C1C;
+  border-color: #B71C1C;
+  border-style: solid;
+  border-width: 1px;
+  color:#ffff ;
+  height: 36px;
+  width: 62px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.13s,color 0.13s;
+}
+.reservation-btn:hover{
+  background-color: black;
+  color: #ffd700;
+  border-color: #ffd700;
+}
+
+/*current page */
+.currently{
+  color: #FCC200;
+  border-bottom: 2px solid #FCC200;
+  padding-bottom: 2px;
+}
+
+/* Mobile menu toggle button */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+
+/* For tablet */
+/* ======================================================================== */
+@media screen and (max-width: 768px) {
+/* Navigation styles for mobile */
+nav {
+  padding: 15px 10px;
+  flex-wrap: wrap;
+}
+
+nav h1 {
+  font-size: 1.3rem;
+}
+
+.menu-toggle {
+ 
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 10px;
+
+
+
+}
+
+nav ul {
+  margin-right: 0;
+  position: relative;
+  flex-direction: column;
+  flex: auto;
+  width: 100%;
+  margin-top: 15px;
+  display: none; /* Hide by default */
+  text-align: center;
+}
+
+nav ul.show {
+  display: flex;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+/* Hero and content adjustments */
+  h2 {
+    font-size: 2rem;
+  }
+      
+  p {
+    font-size: 1.2rem;
+  }
+      
+  .content {
+    max-width: 90%;
+  }
+      
+  .menu-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+      
+  .Dinner, .lunch, .beverage {
+    width: 85%;
+    max-width: none;
+    margin: 0 auto;
+  }
+}
+
+/* For Small mobile devices */
+/* ======================================================================== */
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+      
+  p {
+    font-size: 1rem;
+  }
+      
+  .early {
+    font-size: 1.5rem;
+  }
+      
+  .Dinner_title, .Lunch_title, .Beverages_title {
+    font-size: 1.5rem;
+  }
+      
+  .restaurant_name {
+    font-size: 2rem;
+  }
+}

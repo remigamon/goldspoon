@@ -1,0 +1,47 @@
+
+/* footer last sekali */
+.restaurant_name{
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  text-shadow: 
+  -1px -1px 3px black, 
+  3px -1px 3px black, 
+  -1px 3px 3px black, 
+  3px 3px 3px black;
+}
+
+/* SOCIAL MEDIA */
+.icons{
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  display: block;
+}
+
+.instagram {
+  background-image: url("pictures/instagram.jpeg");
+}
+
+.facebook {
+  background-image: url("pictures/Facebook.jpeg");
+}
+
+.tiktok {
+  background-image: url("pictures/tiktok.jpeg");
+  border-radius: 16px; /* Match original styling */
+}

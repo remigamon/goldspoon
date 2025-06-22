@@ -1,0 +1,147 @@
+/* Search bar */
+#search-bar {
+    border-color: whitesmoke;
+    border-style: solid;
+    border-radius: 5px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#search-button {
+    background-color: #B71C1C;
+    border-color: #6f0c0c;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    min-width: 160px;
+    margin: 0;
+    padding: 10px 30px;
+    transition: background-color 0.13s,color 0.13s;
+}
+
+#search-button:hover {
+    transform: scale(1.06);
+    background-color: black;
+    color: #ffd700;
+    border-color: #ffd700;
+}
+
+/* Card display */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.card {
+    /* background-color: black; */
+    background-image: url("pictures/card-background.jpg");
+    padding: 20px;
+    width: 200px;
+    height: 400px;
+    text-align: left;
+    border-radius: 15px;
+    transition: all 0.15s ease-in-out;
+}
+
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 20px 100px rgba(0, 0, 0);
+    cursor: pointer;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card h4 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+}
+
+
+
+/* Dropdown button styling */
+.dropdown {
+    margin: 0;
+    min-width: 160px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropbtn {
+    background-color: #B71C1C;
+    border-color: #6f0c0c;
+    border-style: solid;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    min-width: 160px;
+    top: 10px;
+    margin: 0;
+    padding: 10px 30px;
+    transition: background-color 0.13s,color 0.13s;
+}
+
+.dropbtn:hover {
+    transform: scale(1.06);
+    background-color: black;
+    color: #ffd700;
+    border-color: #ffd700;
+}
+
+
+/* animation for dropdown menu */
+@keyframes fade-in {
+    from { transform: scaleY(0); }
+    to { transform: scaleY(1); }
+}
+
+.dropdown-content {    
+    background-color: #B71C1C;
+    border-color: #6f0c0c;
+    border-style: solid;
+    border-radius: 5px;
+    transform-origin: top;
+    display: none;
+    position: absolute;
+    top: 60px;
+    margin: 0;
+    padding: 0;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+}
+
+.dropdown-content a {
+    color: whitesmoke;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    color: black;
+    background-color: #ddd;}
+
+.show {display: block;}

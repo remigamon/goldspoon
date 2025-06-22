@@ -1,0 +1,233 @@
+[
+  {
+    "type": "breakfast",
+    "image": "menu/breakfast/1.png",
+    "name": "BF Smoked Beef Sandwich",
+    "price": "10.90",
+    "description": "Smoked beef with fresh veggies in soft bread, served with hot tea."
+  },
+  {
+    "type": "breakfast",
+    "image": "menu/breakfast/2.png",
+    "name": "BF Capati",
+    "price": "6.90",
+    "description": "Warm whole wheat flatbread served with curry and hot tea"
+  },
+  {
+    "type": "breakfast",
+    "image": "menu/breakfast/3.png",
+    "name": "BF Nasi Lemak",
+    "price": "11.90",
+    "description": "Fragrant coconut rice with sambal, egg, anchovies, and peanuts"
+  },
+  {
+    "type": "breakfast",
+    "image": "menu/breakfast/4.png",
+    "name": "BF Tuna Sandwich",
+    "price": "9.90",
+    "description": "Creamy tuna filling in a fresh sandwich, paired with hot tea"
+  },
+
+    {
+    "type": "burger",
+    "image": "menu/burger/1.png",
+    "name": "Beef Burger",
+    "price": "17.90",
+    "description": "GS juicy with bbq sauce served with fries and flavoured soda"
+  },
+  {
+    "type": "burger",
+    "image": "menu/burger/2.png",
+    "name": "Cheese Burger",
+    "price": "10.90",
+    "description": "GS juicy beef patty with double cheese slice served with fries and flavoured soda"
+  },
+  {
+    "type": "burger",
+    "image": "menu/burger/3.png",
+    "name": "Chicken Burger",
+    "price": "16.90",
+    "description": "GS juicy chicken patty with brown sauces erved with fries and flavoured soda"
+  },
+  {
+    "type": "burger",
+    "image": "menu/burger/4.png",
+    "name": "Fish Burger",
+    "price": "16.90",
+    "description": "GS juicy fish patty with tartar sauce served with fries and flavoured soda"
+  },
+
+    {
+    "type": "western",
+    "image": "menu/western/1.png",
+    "name": "BBQ Chicken Chop",
+    "price": "24.50",
+    "description": "Crispy chicken chop with bbq sauce, coleslaw, cheery tomato and lemon slice"
+  },
+  {
+    "type": "western",
+    "image": "menu/western/2.png",
+    "name": "Fish & Chips",
+    "price": "23.50",
+    "description": "Crispy dory fish with tartar sauce, vegetables, and served with fries"
+  },
+  {
+    "type": "western",
+    "image": "menu/western/3.png",
+    "name": "Grilled Fish & Chips",
+    "price": "22.50",
+    "description": "Grilled dory fish with tartar sauce, vegetables, and served with mashed potato"
+  },
+  {
+    "type": "western",
+    "image": "menu/western/4.png",
+    "name": "Grilled Salmon",
+    "price": "31.90",
+    "description": "Premium grilled salmon with mushroom sauce, vegetables and mashed potato"
+  },
+
+    {
+    "type": "salad",
+    "image": "menu/salad/1.png",
+    "name": "Chicken Salad",
+    "price": "17.90",
+    "description": "Grilled chicken, green coral, red cabbage, cucumber, tomato cherry & corn"
+  },
+  {
+    "type": "salad",
+    "image": "menu/salad/2.png",
+    "name": "Fruits Salad",
+    "price": "13.90",
+    "description": "Strawberry, dragon fruit, green apple, green coral, red cabbage, cucumber, tomato cherry & corn"
+  },
+  {
+    "type": "salad",
+    "image": "menu/salad/3.png",
+    "name": "Salmon Salad",
+    "price": "20.90",
+    "description": "Grilled salmon, green coral, red cabbage, cucumber, tomato cherry & corn"
+  },
+  {
+    "type": "salad",
+    "image": "menu/salad/4.png",
+    "name": "Smoked Duck Salad",
+    "price": "18.90",
+    "description": "Smoked duck, green coral, red cabbage, cucumber, tomato cherry & corn"
+  },
+
+  {
+    "type": "pasta",
+    "image": "menu/pasta/1.png",
+    "name": "Aglio Olio",
+    "price": "11.90",
+    "description": "Spaghetti with garlic, olive oil, red chilli, garlic powder and italian spices"
+  },
+  {
+    "type": "pasta",
+    "image": "menu/pasta/2.png",
+    "name": "Buttermilk Prawn Fettuccine",
+    "price": "22.90",
+    "description": "Fettuccine with prawn flavored with butter, red pepper, red chili and curry leaves"
+  },
+  {
+    "type": "pasta",
+    "image": "menu/pasta/3.png",
+    "name": "Special Green Spaghetti",
+    "price": "13.90",
+    "description": "Spaghetti with basil leaves, olive oil and italian spices"
+  },
+  {
+    "type": "pasta",
+    "image": "menu/pasta/4.png",
+    "name": "Creamy Spaghetti",
+    "price": "13.90",
+    "description": "Spaghetti with white cream sauce and italian spices"
+  },
+
+    {
+    "type": "noodle",
+    "image": "menu/noodle/1.png",
+    "name": "Kue Teow Goreng Basah Ayam",
+    "price": "9.90",
+    "description": "Kue Teow noodle with vegetables and diced chicken"
+  },
+  {
+    "type": "noodle",
+    "image": "menu/noodle/2.png",
+    "name": "Maggi Goreng Basah Ayam",
+    "price": "9.90",
+    "description": "Maggi noodle with vegetables and diced chicken"
+  },
+  {
+    "type": "noodle",
+    "image": "menu/noodle/3.png",
+    "name": "Mee Goreng Basah Ayam",
+    "price": "9.90",
+    "description": "Mee noodle with vegetables and diced chicken"
+  },
+  {
+    "type": "noodle",
+    "image": "menu/noodle/4.png",
+    "name": "Salted Egg Prawn Kue Teow",
+    "price": "16.90",
+    "description": "Kue Teow noodle with vegetables, egg and prawn"
+  },
+
+    {
+    "type": "coffee",
+    "image": "menu/coffee/1.png",
+    "name": "Cappucino",
+    "price": "9.90",
+    "description": "Espresso with steamed milk and foam"
+  },
+  {
+    "type": "coffee",
+    "image": "menu/coffee/2.png",
+    "name": "Americano",
+    "price": "6.90",
+    "description": "Espresso diluted with hot water"
+  },
+  {
+    "type": "coffee",
+    "image": "menu/coffee/3.png",
+    "name": "Mactha Latte",
+    "price": "9.90",
+    "description": "Green tea powder with steamed milk"
+  },
+  {
+    "type": "coffee",
+    "image": "menu/coffee/4.png",
+    "name": "Macchiato",
+    "price": "7.90",
+    "description": "descripEspresso with a touch of milk or foamion"
+  },
+
+    {
+    "type": "dessert",
+    "image": "menu/dessert/1.png",
+    "name": "Chocolate Ice Cream",
+    "price": "3.90",
+    "description": "3 scoop of chocolate ice cream topped with chocolate filling"
+  },
+  {
+    "type": "dessert",
+    "image": "menu/dessert/2.png",
+    "name": "Matcha Ice Cream",
+    "price": "5.90",
+    "description": "3 scoop of matcha ice cream topped with chocolate filling"
+  },
+  {
+    "type": "dessert",
+    "image": "menu/dessert/3.png",
+    "name": "Dragon Fruit Ice Cream",
+    "price": "5.90",
+    "description": "3 scoop of dragon fruit ice cream topped with caramel filling"
+  },
+  {
+    "type": "dessert",
+    "image": "menu/dessert/4.png",
+    "name": "Vanilla Ice Cream",
+    "price": "3.90",
+    "description": "3 scoop of vanilla ice cream topped with strawberry filling"
+  }
+]
