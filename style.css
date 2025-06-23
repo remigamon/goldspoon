@@ -110,11 +110,13 @@ p {
   height: 300px;
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
   color: white;
   padding: 20px;
+  margin-bottom: 10px;
 }
 
   /* Menu Buttons */
